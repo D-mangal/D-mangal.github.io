@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
-div {
+header div {
     background-color: rgb(45, 73, 73);
     height: 50px;
 }
 
-.a {
+a {
     color: white;
     text-decoration: none;
+}
+
+div {
+    height: 895px;
+    background-color: rgb(214, 255, 255);
 }
