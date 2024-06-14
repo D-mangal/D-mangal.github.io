@@ -1,0 +1,168 @@
+/*Alles centeren*/
+.alles {
+  text-align: center;
+}
+/*Achtergrond*/
+body {
+  background-image: url("/sd23-p01-project-hoger-lager-D-mangal/img/GameAchtergrond.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Alle knoppen*/
+.credit {
+  color: yellow;
+  text-align: left;
+}
+
+/*Scorebordt*/
+.win-scoreboard {
+  text-align: center;
+}
+
+.lose-scoreboard {
+  text-align: center;
+}
+
+/*Alle knoppen enabled*/
+.verander-naam {
+  top: 2%;
+  left: 54%;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  color: royalblue;
+  background-color: cyan;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.reset {
+  color: royalblue;
+  background-color: cyan;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.higher {
+  color: royalblue;
+  background-color: cyan;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.lower {
+  color: royalblue;
+  background-color: cyan;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.start {
+  color: royalblue;
+  background-color: cyan;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+/*Alle knoppen disabled*/
+
+.verander-naam:disabled {
+  font-size: 0px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.reset:disabled {
+  color: royalblue;
+  background-color: lightgreen;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.higher:disabled {
+  color: royalblue;
+  background-color: lightgreen;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.lower:disabled {
+  color: royalblue;
+  background-color: lightgreen;
+  border: 2px solid green;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  padding: 15px 25px;
+  text-shadow: 0 1px 1px aliceblue;
+}
+
+.start:disabled {
+  font-size: 0px;
+  background-color: transparent;
+  border: transparent;
+}
+
+
+/*De scoreborden*/
+
+.win-scoreboard {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: cyan;
+}
+
+.lose-scoreboard {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: cyan;
+}
