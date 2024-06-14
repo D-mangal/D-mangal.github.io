@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.welcome {
+    font-size: 70px;
+}
+
+
+img{
+    transition: transform .2s;
+}
+img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
