@@ -5,7 +5,7 @@
 }
 
 .game {
-    background-image: url(/img/run-game\ bg.png);
+    background-image: url(/SLIME-RUNNER/img/run-game\ bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 800px;
@@ -17,7 +17,7 @@
 }
 
 .character {
-    background-image: url(/img/run-game\ character.gif);
+    background-image: url(/SLIME-RUNNER/img/run-game\ character.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 80px;
@@ -37,7 +37,7 @@
 }
 
 .obstacle {
-    background-image: url(/img/run-game\ enemy.gif);
+    background-image: url(/SLIME-RUNNER/img/run-game\ enemy.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 40px;
